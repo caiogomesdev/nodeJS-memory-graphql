@@ -3,8 +3,12 @@ Aplicação simples para estudar o funcionamento do GraphQl com o nodeJs e expre
 
 # Vamos começar
 para iniciar o projeto basta clonar o repositório para sua máquina local, acessar o diretorio e digitar esse comando:
-```npm install```
+```
+npm install
+```
 e para executar basta digitar:
-```npm start```
+```
+npm start
+```
 
 Espero que gostem desse projeto.
