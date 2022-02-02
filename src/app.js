@@ -5,7 +5,6 @@ const {schema, resolvers} = require("./models/User")
 class App {
     constructor(){
         this.server = express()
-        this.routes()
         this.Middleware()
     }
     Middleware(){
@@ -16,9 +15,6 @@ class App {
               rootValue: resolvers,
               graphiql: true
             }))
-    }
-    routes(){
-
     }
 }
 
